@@ -2,7 +2,8 @@ import { useLoaderData } from "react-router-dom";
 
 export const Post = () => {
   const { post } = useLoaderData();
-  console.log(post);
+
+
   return (
     <section className="container">
       <h1>{post.title}</h1>
